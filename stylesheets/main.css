@@ -1,8 +1,161 @@
+/***************
+COLORS:
+
+background: #deb7d2; (lavender)
+text, main menu bg: #1c1328 (dark purple)
+main menu items: #c66a53 (darker orange)
+main menu items (hover): #e19160 (lighter orange)
+accents: #8e6286 (mid purple)
+****************/
+
+/*********
+STYLES FOR ALL SIZES
+**********/
+
 body {
-  background-color:lightblue;
-  color: blue;
+  color: #1c1328;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3em;
+  margin: 0;
 }
 
-#offerings {
-  color: red;
+.mainNav {
+  background-color: #1c1328;
+  border-bottom: #c66a53;
+  list-style: none;
+  position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+  font-size: 1.3em;
+  font-variant: small-caps;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+ }
+
+ .mainNav ul {
+   margin: 0;
+ }
+
+ .mainNav li {
+   padding-bottom: .4em;
+   text-align: left;
+ }
+
+.mainNav li a {
+  text-decoration: none;
+  color: #c66a53;
+}
+
+.mainNav li a:hover {
+  color: #e19160;
+}
+
+header {
+  background-color: #deb7d2;
+  margin-bottom: 0;
+  padding-top: 150px;
+  text-align: center;
+}
+
+#contactInfo {
+  border-bottom: double black;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+main {
+  background-color: #deb7d2;
+  margin-top: 0;
+  overflow: auto;
+  padding: 5%;
+}
+
+h1 {
+  font-family: 'Eagle Lake', cursive;
+  font-size: 2em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+h2 {
+  color: #8e6286;
+  font-family: 'Eagle Lake', cursive;
+}
+
+footer {
+  background-color: #c66a53;
+  border-bottom: thick double #e19160;
+  border-top: thick double #e19160;
+  clear: both;
+  font-size: 1.3em;
+  margin-top: 0;
+  padding: 2%;
+ }
+
+#socialMedia {
+  float: left;
+  margin: 0;
+}
+
+
+#copyright {
+  color: #1c1328;
+  font-size: .75em;
+  text-align: right;
+}
+/**************
+STYLES FOR LARGER SCREENS
+***************/
+
+@media only screen and (min-width:700px) {
+
+  .mainNav {
+    display: inline-block;
+    float: left;
+  }
+
+  .mainNav li {
+    float: left;
+    padding-left: 4em;
+  }
+
+header {
+  padding-top: 80px;
+}
+
+.main {
+    background-color: #deb7d2;
+  }
+
+  .leftColumn {
+    box-sizing: border-box;
+    float: left;
+    overflow: auto;
+    padding-right: 5%;
+    width:65%;
+  }
+
+  .rightColumn {
+    background-color: #1c1328;
+    box-sizing: border-box;
+    color: #deb7d2;
+    float: left;
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    width:35%;
+  }
+
+.massageLinks a {
+  text-decoration: none;
+  color: #c66a53;
+}
+
+.massageLinks a:hover {
+  color: #e19160;
+}
+
 }
