@@ -85,6 +85,17 @@ h2 {
   font-family: 'Eagle Lake', cursive;
 }
 
+
+tr {
+  background-color: #8e6286;
+  font-size: .9em;
+  text-align: center;
+  color: white;
+
+
+
+}
+
 footer {
   background-color: #c66a53;
   border-bottom: thick double #e19160;
