@@ -83,6 +83,22 @@ h1 {
 h2 {
   color: #8e6286;
   font-family: 'Eagle Lake', cursive;
+  /*margin-top: 20px;*/
+}
+
+h3 {
+  font-style: bold;
+}
+
+iframe {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+#feedback {
+  clear: both;
+  margin-top: 100px;
 }
 
 footer {
