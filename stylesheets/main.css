@@ -136,22 +136,22 @@ iframe {
 }
 
 table {
-  border: 5px;
+  /*border: 5px;
   border-style: solid;
-  border-color: #deb7d2;
+  border-color: #deb7d2;*/
   margin-left: 2%;
   margin-right: 2%;
 }
 
 tr {
-  background-color: rgba(142, 98, 124, .7);
+  background-color: rgba(28, 19, 40, .7);
   font-size: .9em;
   text-align: center;
   color: #deb7d2;
 }
 
 td {
-  padding: 5px;
+  padding: 8px;
 }
 
 #offerings {
@@ -235,19 +235,20 @@ header {
   }
 
   .rightColumn {
-    background-color: rgba(28, 19, 40, .2);
+    background-color: rgba(142, 98, 124, .6);
     box-sizing: border-box;
     color: #deb7d2;
     float: left;
     margin: 0;
     padding-left: 3%;
     padding-right: 3%;
+    padding-bottom: 3%;
     width:35%;
   }
 
 .massageLinks a {
   text-decoration: none;
-  color: #c66a53;
+  color: #1c1328;
 }
 
 .massageLinks a:hover {
