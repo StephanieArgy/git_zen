@@ -68,20 +68,12 @@ HEADER BAR
 header {
   background-color: #c66a53;
   margin-bottom: 0;
-  padding-top: 150px;
+  padding-top: 155px;
   text-align: center;
 }
 
-#headerimages {
-  max-width: 100%;
-  margin: 2px 0;
-}
-
 #headerimages img {
-  float: left;
-  display: inline-block;
-  max-height: 150px;
-  margin-top: 0;
+  width: 100%;
 }
 
 #contactInfo {
@@ -146,7 +138,7 @@ iframe {
 table {
   border: 5px;
   border-style: solid;
-  border-color: #e19160;
+  border-color: #deb7d2;
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -155,7 +147,7 @@ tr {
   background-color: rgba(142, 98, 124, .7);
   font-size: .9em;
   text-align: center;
-  color: white;
+  color: #deb7d2;
 }
 
 td {
@@ -227,7 +219,7 @@ STYLES FOR LARGER SCREENS
   }
 
 header {
-  padding-top: 80px;
+  padding-top: 65px;
 }
 
 .main {
