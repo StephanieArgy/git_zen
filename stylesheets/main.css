@@ -95,8 +95,8 @@ header {
 
 #contactInfo a {
   color: #1c1328;
+  font-weight: bold;
   text-decoration: none;
-  text-shadow: 2px 2px 2px #8e6286;
 }
 
 #contactInfo a:hover {
@@ -111,7 +111,8 @@ BODY
 
 main {
   background-color: #deb7d2;
-  background-image: url("canvasLavender.jpg");
+  background-image: url("../images/canvasLavender.jpg");
+  background-size: 30%;
   margin-top: 0;
   overflow: auto;
   padding: 5%;
@@ -127,7 +128,7 @@ h1 {
 }
 
 h2 {
-  color: #8e6286;
+  color: #1c1328;
   font-family: 'Eagle Lake', cursive;
 }
 
@@ -151,7 +152,7 @@ table {
 }
 
 tr {
-  background-color: #8e6286;
+  background-color: rgba(142, 98, 124, .7);
   font-size: .9em;
   text-align: center;
   color: white;
@@ -242,7 +243,7 @@ header {
   }
 
   .rightColumn {
-    background-color: #1c1328;
+    background-color: rgba(28, 19, 40, .2);
     box-sizing: border-box;
     color: #deb7d2;
     float: left;
