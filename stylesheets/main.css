@@ -206,12 +206,20 @@ td {
   padding-top: 150px;
 }
 
+#cattext {
+  margin-bottom: .1em;
+}
+
 audio {
 	padding-top:1em;
 	border:none;
   margin: auto;
   padding: auto;
 	width: 100%;
+}
+
+#cat {
+  max-width: 100%;
 }
 
 /*********
