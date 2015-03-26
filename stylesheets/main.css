@@ -131,7 +131,7 @@ BODY
 
 main {
   background-color: #deb7d2;
-  background-image: url("../images/canvasLavender.jpg");
+  background: url("../images/canvasLavender.jpg");
   background-size: 30%;
   margin-top: 0;
   overflow: auto;
@@ -206,6 +206,13 @@ td {
   padding-top: 150px;
 }
 
+audio {
+	padding-top:1em;
+	border:none;
+  margin: auto;
+  padding: auto;
+	width: 100%;
+}
 
 /*********
 FOOTER
@@ -287,7 +294,10 @@ header {
 
 
   .rightColumn {
-    background-color: rgba(142, 98, 124, .6);
+    background: linear-gradient(to top, #8e6286 -30%, transparent 90%),
+                      rgba(142, 98, 124, .6);
+    border: 1px solid #deb7d2;
+    border-radius: 3%;
     box-sizing: border-box;
     color: #deb7d2;
     float: left;
